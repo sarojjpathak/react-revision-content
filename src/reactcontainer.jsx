@@ -1,5 +1,5 @@
 import Navbar from "./navbar.jsx"
-
+import Footer from "./footer.jsx";
 function Reactcontainer(){
     return(
         <div className="container1">
@@ -12,6 +12,7 @@ function Reactcontainer(){
     <li>Is maintained by Facebook</li>
     <li>Power thousands of enterprises ,including mobile app</li>
   </ul>
+  <Footer/>
   </div>
     );
 

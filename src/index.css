@@ -5,7 +5,7 @@ body{
     
 }
 .logo{
-  width: 80px;
+  width: 40px;
 }
 h1{
   font-size: 40px;
@@ -13,10 +13,33 @@ h1{
   margin-bottom: 10px;
 }
 .container1{
-  padding: 20px;
+ 
   height: auto;
   width: 400px;
   border: 2px solid rgb(42, 41, 41);
   border-radius: 20px;
-  margin: 10px;
+ 
+}
+.navbar{
+  
+  display: flex;
+  position: relative;
+  height: 50px;
+  padding: 10px;
+    box-shadow: 0 6px 10px rgba(175, 171, 171, 0.505);
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+ right: 10px;
+}
+footer{
+  height: 40px;
+   box-shadow: 6px 0px 10px rgba(131, 126, 126, 0.632);
+
+ border-radius: 0px 0px 11px 11px;
+ padding: 10px;
+  
 }
