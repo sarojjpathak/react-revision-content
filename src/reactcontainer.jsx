@@ -1,8 +1,10 @@
 import Navbar from "./navbar.jsx"
 import Footer from "./footer.jsx";
+import Logo from "./assets/react.svg"
 function Reactcontainer(){
     return(
         <div className="container1">
+           <div className="backimg">  <img src={Logo} alt="" /></div>
   <Navbar/>
   <h1>Fun Facts About React</h1>
   <ul>

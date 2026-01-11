@@ -2,9 +2,9 @@ function Footer(){
 return(
 
     <>
-    <footer>© 2026 Saroj Pathak. All rights reserved.
+    <footer> <small>A© 2026 Saroj Pathak. All rights reserved.
 Built with React to practice components, props, and state management.
-</footer>
+</small></footer>
     </>
 );
 }

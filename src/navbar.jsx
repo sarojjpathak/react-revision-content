@@ -4,6 +4,7 @@ function Nav(){
         <>
         <div className="navbar">
          <img className="logo" src= {Logo} alt="react-logo" />
+         <h2>FunFacts</h2>
          <ul>
             
             <li>About</li>
